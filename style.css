@@ -96,11 +96,44 @@ body {
 
 @media screen and (max-width:480px){
     .container {
-        width: 380px;
+        width: 370px;
     }
+     .container .head{
+        padding: 50px;
+    } 
+    .middle {
+      padding: 16px;
+    }
+
+    .main [type="submit"] {
+      width: 120px;
+      
+    }
+
+    @media screen and (max-width:400px){
+      .container {
+        width: 330px;
+    }
+
     .container .head{
-        padding: 60px;
+      padding: 30px;
+  } 
+  .main [type="submit"] {
+    width: 100px;
+  }
+    .main [type="email"] {
+      width: 180px;
+      
     }
+    
+  }
+    
+    }
+    
+
+
+    
+    
 
     
 
