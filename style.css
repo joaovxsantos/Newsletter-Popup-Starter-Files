@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./Assets/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 440px;
+}
+
+.container .head {
+  background: #2355f2 url(./Assets/Pattern.png);
+  text-align: center;
+  color: #fff;
+  padding: 70px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.head h1 {
+  font-size: 25px;
+}
+
+.middle {
+  background: #fff;
+  padding: 30px;
+}
+
+.middle p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.main p:first-child {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main input {
+  padding: 15px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.main [type="email"] {
+  width: 200px;
+  background: rgb(240, 238, 238);
+  margin-right: 5px;
+}
+
+.main [type="submit"] {
+  width: 150px;
+  background: #2355f2;
+  color: #fff;
+}
+
+.main p:last-child {
+  color: rgb(177, 172, 172);
+}
+
+
+.footer .profile{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   padding: 20px;
+}
+
+
+.profile h2{
+    font-size: 15px;
+}
+
+.footer .label p{
+    text-align:center;
+}
+
+
+@media screen and (max-width:480px){
+    .container {
+        width: 380px;
+    }
+    .container .head{
+        padding: 60px;
+    }
+
+    
+
+}
